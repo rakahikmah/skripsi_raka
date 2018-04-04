@@ -1,0 +1,504 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+body.body{
+
+	font-family: 'Montserrat', sans-serif;
+}
+.navbar{
+	margin-bottom: 0;
+  font-weight: bold;
+  background-color: rgba(0,0,0,0);
+  border:none;
+}
+
+.navbar-login{
+  background-color: #34495E;
+  margin-bottom: 0;
+  font-weight: bold;
+  border:none;
+}
+.navbar-brand{
+  line-height:70px;
+    height: 70px; 
+    margin-top: -6px;
+}
+.navbar-toggle{
+  padding:28px 15px;
+}
+.navbar-toggle2 {
+  padding:28px;
+}
+
+.navbar-nav li a.home{
+    line-height: 70px;
+    height: 70px;
+    padding: 6px 27px; 
+    margin-top: 0;
+    font-size: 1.3em;
+    color: white;
+    text-align: center;
+    transition: 0.5s;
+
+}
+.navbar-nav>li>a.home:hover{
+    border-bottom-color: #5DADE2;
+    border-bottom-style: solid;
+    color:white;
+}
+nav.shrink{
+background-color: #34495E;
+}
+.navbar-collapse{
+  border:0;
+}
+.navbar-default .navbar-toggle:hover{
+  background-color:#154360;
+}
+.slideanim {visibility:hidden;}
+.slide {
+    /* The name of the animation */
+    animation-name: slide;
+    -webkit-animation-name: slide; 
+    /* The duration of the animation */
+    animation-duration: 1s; 
+    -webkit-animation-duration: 1s;
+    /* Make the element visible */
+    visibility: visible; 
+}
+
+/* Go from 0% to 100% opacity (see-through) and specify the percentage from when to slide in the element along the Y-axis */
+@keyframes slide {
+    0% {
+        opacity: 0;
+        transform: translateY(70%);
+    } 
+    100% {
+        opacity: 1;
+        transform: translateY(0%);
+    } 
+}
+@-webkit-keyframes slide {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(70%);
+    } 
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0%);
+    }
+}
+
+
+.header-home{
+	 background: url('../../image/tufasilkomm60persen.jpg') no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+	padding-top: 71px;
+	padding-bottom: 20px;
+}
+.header-home h1{
+	color:#EFF0FB
+}
+.navbar-nav>li>a.status{
+	color: #76D7C4   !important;
+  line-height: 70px;
+  height: 80px;
+  padding: 6px 27px; 
+  font-size: 1.3em;
+}
+.navbar-nav>li>a.keluar{
+    color:#E70F0F    !important;
+}
+.navbar-nav>li.status,.navbar-nav>li.status>a{
+  line-height: 70px;
+  height: 80px;
+  padding: 6px 27px; 
+  margin-top: 0;
+  font-size: 1.3em;
+}
+
+#home{
+  color: white;
+   background-color: #34495E;
+   padding: 40px 0px;
+}
+h1.intro{
+  font-weight: 700;
+  margin-bottom: 33px;
+}
+p.statement{
+  line-height:36px;
+  font-size: 2.0rem;
+}
+.btn-header{
+	font-size:22px;
+	margin:10px 0px;
+}
+.btn-daftar{
+  transition: 0.5s;
+  color: white;
+  background: rgba(0,0,0,0.01);
+  border: solid 2px white; 
+}
+.btn-daftar:hover{
+  background: white;
+  color: black;
+  border: 2px solid white;
+   }
+.btn-login{
+  transition: 0.5s;
+  color:#F4D03F;
+  background:rgba(0,0,0,0.01);
+  border: solid 2px #F4D03F;
+}
+.btn-login:hover{
+  color: white;
+  background-color: #F4D03F;
+}
+#step{
+  text-align: center;
+  padding: 40px 0px;
+}
+.title{
+  font-weight: 800;
+}
+.blue{
+  color: #5DADE2;
+}
+p.isi{
+  font-size: 1.8rem;
+}
+
+section.tentang{
+  background-color: #d5d5e2;
+}
+
+.tentanghome{
+   background: url('../../image/tufasilkomm60persen.jpg') no-repeat center center; 
+  background-size: cover;
+  padding: 100px 0px;
+}
+
+.texttentang{
+  text-align: center;
+  margin-top: 75px;
+}
+
+.texttentang1{
+  text-align: center;
+  padding: 50px 0px;
+  color: #f4f5f7;
+}
+
+.btn-more{
+  transition: 0.5s;
+  color: #2E86C1;
+  background: rgba(0,0,0,0); ;
+  border: solid 2px #2E86C1; 
+}
+.btn-more:hover{
+color: #fff;
+background: rgba(46,134,193,1);
+}
+.footer{
+  background: url('../../image/footer2.jpg') no-repeat center center;
+	/* background-color:#1c2c39; */
+	color: #ffffff;
+	padding: 20px;
+}
+.footer-column{
+  line-height: 34px;
+}
+
+.box-login{
+  background-color:  #34495E;
+  padding: 40px;
+  border-radius: 5px;
+   margin-top: 95px;
+}
+.title-login{
+  color: white;
+}
+
+
+.btn-daftarkan{
+  transition: 0.5s;
+  color: #2E86C1;
+  background: rgba(0,0,0,0); ;
+  border: solid 2px #2E86C1; 
+  font-size: 18px;
+  font-weight: bold;
+}
+.btn-daftarkan:hover{
+color: #fff;
+background: rgba(46,134,193,1);
+}
+.box-notice {
+  margin-top: 50px;
+    margin-bottom: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 2px solid white;
+    color: white;
+    text-align: center;
+}
+.dash1{
+  height: 260px;
+  background: rgba(10, 133, 209, 0.5);
+  border-radius: 7px;
+  border: 10px;
+  margin-bottom: 10px
+ 
+}
+.dash2{
+  height: 260px;
+  background:rgba(10, 209, 103, 0.5);
+  border-radius: 7px;
+  border: 10px;
+  margin-bottom: 10px;
+}
+.dash-btn{
+  font-weight: bold;
+ 
+}
+.dash-text{
+  color: white;
+  font-weight: bold;
+}
+.image-mahasiswa{
+   background: url('../../image/tulisanfasilkom20.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;;
+}
+.btn-finish{
+  font-size: 15px;
+}
+.skin-blue .sidebar-menu .treeview-menu>li.waiting-active>a{
+  color: #3c8dbc;
+}
+.skin-blue .sidebar-menu .treeview-menu>li.proses-active>a{
+  color: #f39c12;
+}
+.skin-blue .sidebar-menu .treeview-menu>li.finish-active>a{
+  color: #00a65a;
+}
+.skin-blue .sidebar-menu .treeview-menu>li.take-active>a{
+  color: #7D3C98;
+}
+.skin-blue .sidebar-menu .treeview-menu>li.tolak-active>a{
+  color: #f56954;
+}
+
+.skin-blue .sidebar-menu>li.waiting-active>a{
+  color:#3c8dbc;
+}
+.skin-blue .sidebar-menu>li.proses-active>a{
+  color:#f39c12;
+  border-left-color: #f39c12;
+}
+.skin-blue .sidebar-menu>li.finish-active>a{
+  color:#00a65a;
+  border-left-color: #00a65a;
+}
+.skin-blue .sidebar-menu>li.take-active>a{
+  color:#7D3C98;
+  border-left-color: #00c0ef;
+}
+.skin-blue .sidebar-menu>li.tolak-active>a{
+  color:#f56954;
+  border-left-color: #f56954;
+}
+.box-terima {
+  border-top-color: #7D3C98;
+}
+.label-terima {
+  background-color: #7D3C98 !important;
+}
+
+.form-login{
+	margin-top: 100px;
+  margin-bottom: 60px;
+}
+
+/*PRINT */
+
+body.printkpta{
+   font-family:Arial, Helvetica, sans-serif;
+  font-size: 12pt;
+}
+
+span.tanggal{
+  padding-top: 70px; 
+  font-size: 12pt;
+}
+.kopsurat{
+  padding-bottom: 40px;
+}
+.idsurat,.isipesan{
+  padding-bottom: 40px;
+}
+
+.kepadayth{
+  padding-bottom: 40px;
+}
+.clsDatePicker {
+    z-index: 100000;
+}
+p.nomor,p.lampiran,p.perihal{
+  white-space: pre;
+}
+span.warning{
+  color:maroon;
+}
+.table-borderless td,
+.table-borderless th,
+.table-borderless tr {
+    border: 0 !important;
+}
+p.koordinator{
+  font-size:11pt;
+}
+p#kepadayth{
+  margin-bottom: 0;
+}
+p#kepadayth-1{
+  font-size: 9pt;
+  margin-bottom: 0;
+
+}
+
+.link-login{
+  color: #CCDC22; 
+}
+ 
+.link-login:hover{
+  color: #CCDC22;
+  text-decoration: none;
+  font-weight:bold;
+}
+
+.link-daftar{
+  color: #CCDC22;
+  border-right: 1px solid whitesmoke;
+  letter-spacing: .1em;
+  transition: text-shadow .3s;
+}
+ 
+.link-daftar:hover{
+  color: #CCDC22;
+  text-decoration: none;
+  text-shadow: 0 0 .65px #7F8815, 0 0 .65px #7F8815;
+}
+
+.link-dukungan{
+  color: #FFF;
+  text-decoration: none;
+}
+.link-dukungan:hover{
+  color: #CCDC22;
+  text-decoration: none;
+}
+
+.embed-responsive {
+  position: relative;
+  display: block;
+  height: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.embed-responsive .embed-responsive-item,
+.embed-responsive iframe,
+.embed-responsive embed,
+.embed-responsive object,
+.embed-responsive video {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+.embed-responsive-16by9 {
+  padding-bottom: 56.25%;
+}
+.embed-responsive-4by3 {
+  padding-bottom: 75%;
+}
+
+/* LAPORAN */
+.judul-chart{
+  color: #112EA5;
+}
+.tanggal-chart {
+  color: #E219B7;
+}
+.tunggu-chart {
+  color: #3c8dbc;
+}
+
+.ditolak-chart {
+  color: #f56954;
+}
+.proses-chart {
+  color: #f39c12;
+}
+.ti-chart {
+  color: #E219B7;
+}
+.selesai-chart {
+  color: #00a65a;
+}
+.si-chart {
+  color: #000000;
+}
+.ambil-chart{
+  color: #7D3C98;
+}
+#pieChart{
+}
+@media print {
+  @page {size: landscape}
+  .judul-chart{
+    color: #112EA5 !important;
+    -webkit-print-color-adjust: exact;
+  }
+  .tanggal-chart {
+    color: #E219B7 !important;
+    -webkit-print-color-adjust: exact;
+  }
+  #pieChart {
+    margin-left: -65px;
+  }
+  .tunggu-chart {
+    color: #3c8dbc !important;
+    -webkit-print-color-adjust: exact;
+  }
+  .ditolak-chart {
+    color: #f56954 !important;
+    -webkit-print-color-adjust: exact;
+  }
+  .proses-chart {
+    color: #f39c12 !important;
+    -webkit-print-color-adjust: exact;
+  }
+  .ti-chart {
+    color: #E219B7 !important;
+    -webkit-print-color-adjust: exact;
+  }
+  .selesai-chart {
+    color: #00a65a !important;
+    -webkit-print-color-adjust: exact;
+  }
+  .si-chart {
+    color: #000000 !important;
+    -webkit-print-color-adjust: exact;
+  }
+  .ambil-chart {
+  color: #00c0ef !important;
+  -webkit-print-color-adjust: exact;
+  }
+}
